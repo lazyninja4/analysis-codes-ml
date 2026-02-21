@@ -7,17 +7,20 @@ Overview:
 This repository contains the scripts used to analyze microbial diversity relative to environmental pollution using publicly available genomic and georeferenced pollution datasets. The analysis investigates whether changes in microbial diversity follow linear trends or show non-linear behavior across increasing pollution levels. The code is intended to support reproducibility of the data processing, analysis, and visualization pipeline used in the associated study.
 
 Repository Structure:
-data_processing.py – Integrates and cleans genomic and pollution site datasets.
-diversity_metrics.py – Computes microbial diversity indices from processed genomic data.
+pollution_sources.py – Integrates and cleans genomic and pollution site datasets.
+microbial_diversity.py – Computes microbial diversity indices from processed genomic data.
 analysis_and_plots.py – Performs statistical analysis and generates diversity vs pollution visualizations.
 outputs/ – Directory for generated plots and processed tables.
+data/ - directory for raw input datasets (not included due to size and licensing).
+README.md
+LICENSE.md
 requirements.txt - Install the required modules from this file.
 
 Data Sources:
 The analysis uses publicly available datasets describing:
 Microbial genomic sequences and taxonomic information - μSudAqua
-Georeferenced pollution or contamination site data - OpenStreetMap and Overpass API
-Please download these datasets separately before running the scripts.
+Georeferenced pollution or contamination site data - OpenStreetMap and Overpass API (queried)
+Please download the dataset separately before running the scripts.
 
 Method Summary:
 Genomic and pollution datasets are cleaned and spatially matched.
