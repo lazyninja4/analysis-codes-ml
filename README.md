@@ -32,7 +32,7 @@ microbial_diversity.py
 pollution_sources.py
 analysis_and_plots.py
 
-Outputs
+Outputs - 
 The pipeline produces:
 Processed tables of microbial diversity and pollution levels.
 Plots showing microbial diversity as a function of pollution intensity.
@@ -40,8 +40,8 @@ Plots showing microbial diversity as a function of pollution intensity.
 Limitations:
 This analysis is constrained by the resolution and geographic coverage of available datasets. The results describe statistical relationships and do not establish causal mechanisms. Interpretation of patterns should consider potential confounding environmental factors.
 
-Citation
+Citation:
 If this code is used for academic or educational purposes, please cite the associated study and the original data sources.
 
-License
+License:
 This project is released under the MIT License.
