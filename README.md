@@ -7,20 +7,24 @@ Overview:
 This repository contains the scripts used to analyze microbial diversity relative to environmental pollution using publicly available genomic and georeferenced pollution datasets. The analysis investigates whether changes in microbial diversity follow linear trends or show non-linear behavior across increasing pollution levels. The code is intended to support reproducibility of the data processing, analysis, and visualization pipeline used in the associated study.
 
 Repository Structure:
-pollution_sources.py – Integrates and cleans genomic and pollution site datasets.
-microbial_diversity.py – Computes microbial diversity indices from processed genomic data.
-analysis_and_plots.py – Performs statistical analysis and generates diversity vs pollution visualizations.
-outputs/ – Directory for generated plots and processed tables.
-data/ - directory for raw input datasets (not included due to size and licensing).
-README.md
+
+pollution_sources.py – Integrates and cleans genomic and pollution site datasets.  
+microbial_diversity.py – Computes microbial diversity indices from processed genomic data.  
+analysis_and_plots.py – Performs statistical analysis and generates diversity vs pollution visualizations.  
+outputs/ – Directory for generated plots and processed tables.  
+data/ - directory for raw input datasets (not included due to size and licensing).  
+└── .gitkeep  
+README.md  
 LICENSE.md
+
 requirements.txt - Install the required modules from this file.
 
 Data Sources:
-The analysis uses publicly available datasets describing:
-Microbial genomic sequences and taxonomic information - μSudAqua
-Georeferenced pollution or contamination site data - OpenStreetMap and Overpass API (queried)
-Please download the dataset separately before running the scripts.
+
+The analysis uses publicly available datasets describing:  
+Microbial genomic sequences and taxonomic information - μSudAqua.  
+Georeferenced pollution or contamination site data - OpenStreetMap and Overpass API (queried).  
+Please download the dataset separately before running the scripts.  
 
 Method Summary:
 Genomic and pollution datasets are cleaned and spatially matched.
@@ -30,11 +34,14 @@ Results are visualized as diversity–pollution relationships.
 
 Usage:
 Install required Python dependencies listed in requirements.txt with pip install -r requirements.txt.
+
 Place downloaded datasets in the data/ directory.
+
 Run the scripts in the following order:
-microbial_diversity.py
-pollution_sources.py
-analysis_and_plots.py
+
+microbial_diversity.py,
+pollution_sources.py,
+analysis_and_plots.py.
 
 Outputs - 
 The pipeline produces:
