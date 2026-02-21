@@ -11,12 +11,11 @@ Repository Structure:
 data/ - directory for raw input datasets (not included due to size and licensing).  
 └── .gitkeep  
 outputs/ – Directory for generated plots and processed tables.  
-analysis_and_plots.py – Performs statistical analysis and generates diversity vs pollution visualizations.  
-pollution_sources.py – Integrates and cleans genomic and pollution site datasets.  
-microbial_diversity.py – Computes microbial diversity indices from processed genomic data.  
+LICENSE.md  
 README.md  
-LICENSE.md
-
+analysis_and_plots.py – Performs statistical analysis and generates diversity vs pollution visualizations.  
+microbial_diversity.py – Computes microbial diversity indices from processed genomic data.  
+pollution_sources.py – Integrates and cleans genomic and pollution site datasets.  
 requirements.txt - Install the required modules from this file.
 
 Data Sources:
