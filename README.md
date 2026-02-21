@@ -8,12 +8,12 @@ This repository contains the scripts used to analyze microbial diversity relativ
 
 Repository Structure:
 
-pollution_sources.py – Integrates and cleans genomic and pollution site datasets.  
-microbial_diversity.py – Computes microbial diversity indices from processed genomic data.  
-analysis_and_plots.py – Performs statistical analysis and generates diversity vs pollution visualizations.  
-outputs/ – Directory for generated plots and processed tables.  
 data/ - directory for raw input datasets (not included due to size and licensing).  
 └── .gitkeep  
+outputs/ – Directory for generated plots and processed tables.  
+analysis_and_plots.py – Performs statistical analysis and generates diversity vs pollution visualizations.  
+pollution_sources.py – Integrates and cleans genomic and pollution site datasets.  
+microbial_diversity.py – Computes microbial diversity indices from processed genomic data.  
 README.md  
 LICENSE.md
 
