@@ -32,7 +32,7 @@ Diversity values are analyzed against pollution intensity.
 Results are visualized as diversity–pollution relationships.
 
 Usage:
-Install required Python dependencies listed in requirements.txt with pip install -r requirements.txt.
+Install required Python dependencies listed in requirements.txt with "pip install -r requirements.txt".
 
 Place downloaded datasets in the data/ directory.
 
