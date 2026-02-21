@@ -1,0 +1,2 @@
+{'metric': 'shannon_diversity', 'n_samples': 499, 'r2_linear': 0.004133927014401628, 'r2_tree': 0.0749342002745298, 'r2_forest': 0.13431334065790512, 'tipping_point_km': np.float64(195.12568369863607), 'slope': np.float64(0.15014572982402935), 'delta': 0.07080027326012817}
+{'metric': 'evenness', 'n_samples': 499, 'r2_linear': 0.01723001483514308, 'r2_tree': 0.16849275893118654, 'r2_forest': 0.21718744442540439, 'tipping_point_km': np.float64(144.40893705320778), 'slope': np.float64(0.026447332054466633), 'delta': 0.15126274409604346}
