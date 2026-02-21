@@ -11,6 +11,7 @@ data_processing.py – Integrates and cleans genomic and pollution site datasets
 diversity_metrics.py – Computes microbial diversity indices from processed genomic data.
 analysis_and_plots.py – Performs statistical analysis and generates diversity vs pollution visualizations.
 outputs/ – Directory for generated plots and processed tables.
+requirements.txt - Install the required modules from this file.
 
 Data Sources:
 The analysis uses publicly available datasets describing:
@@ -25,7 +26,7 @@ Diversity values are analyzed against pollution intensity.
 Results are visualized as diversity–pollution relationships.
 
 Usage:
-Install required Python dependencies listed in requirements.txt.
+Install required Python dependencies listed in requirements.txt with pip install -r requirements.txt.
 Place downloaded datasets in the data/ directory.
 Run the scripts in the following order:
 microbial_diversity.py
