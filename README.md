@@ -1,8 +1,7 @@
 # analysis-codes-ml
-This is the set of scripts and outputs (including data preparation for microbial diversity and pollutant sources, as well as the primary machine learning analysis) in Python used in our study, "Identifying Ecological Thresholds in Aquatic Biodiversity Using Machine Learning".
+This is the set of scripts and outputs (including data preparation for microbial diversity and pollutant sources, as well as the primary machine learning analysis) in Python used in our study.
 
-Study title: Identifying Ecological Thresholds in Aquatic Biodiversity Using Machine Learning
-
+Study title: Identifying Nonlinear Thresholds in Aquatic Microbial Diversity Along Pollution Gradients  
 Overview:
 This repository contains the scripts used to analyze microbial diversity relative to environmental pollution using publicly available genomic and georeferenced pollution datasets. The analysis investigates whether changes in microbial diversity follow linear trends or show non-linear behavior across increasing pollution levels. The code is intended to support reproducibility of the data processing, analysis, and visualization pipeline used in the associated study.
 
